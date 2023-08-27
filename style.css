@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --main-font:'Lexend', sans-serif;
+    --light-blue: #b9dde8;
+    --orange:#FF843F;
+    --soft-orange: #FFA166;
+    --primary-orange: #E56117;
+    --primary-blue : #171FE5;
+    --dark-blue: #040522;
+}
+body{
+    font-family: var(--main-font);
+    font-weight: 600;
+    color:var(--dark-blue);
+}
+a{
+    text-decoration: none;
+}
+.new__arrival__images, .our-speciality, .top-brand__images, .blog__posts--products {
+    margin-left: 22.7rem;
+    margin-right: 22.7rem;
+}
